@@ -1,0 +1,139 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+.container 
+{
+    width: 50%;
+    padding: 20px;
+    margin: 20px auto;  
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+hr
+{
+    border: none;
+    border-top: 2px dashed #b4d98d;
+}
+.icon
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    font-size: 30px;
+    margin-top: 10px;
+    overflow: hidden;
+    color: #005e37;
+    border-radius: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #95ca57;
+}
+.full-width
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* header */
+header 
+{
+    gap: 5%;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #95ca57;
+    margin: -15px -15px 0 -15px;
+}
+header img 
+{
+    width: 50%;
+    height: 80px;
+}
+
+header h1
+{
+    width: 40%;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+/* main */
+.form-section 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.form-section h3
+{
+    width: 100%;
+    color: #005c36;
+    margin-bottom: 20px;
+}
+.form-group 
+{
+    margin-bottom: 25px;
+}
+
+.form-group label 
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-group input,.form-group select
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.first
+{
+    width: 48%;
+}
+
+.second
+{
+    width: 100%;
+}
+
+.third
+{
+    width: 30.6%;
+}
+
+/* footer */
+footer 
+{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #95ca57;
+    margin: 0 -15px -15px -15px;
+}
+.submit-btn 
+{
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #e8e8e8;
+}
+
+.submit-btn:hover 
+{
+    background-color: #c3c3c3;
+}
