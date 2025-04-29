@@ -1,0 +1,5 @@
+div>div:not(:first-child,:last-child) , div>p:not(:first-child,:last-child)
+{
+    color: red;
+}
+

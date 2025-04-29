@@ -1,0 +1,53 @@
+:root 
+{
+    --primary-color: #ffffff; 
+    --secondary-color: #009688;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1
+{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+h1::before
+{
+    content: "";
+    z-index: -1;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    margin-left: -70px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    transform: skewX(20deg);
+}
+
+h1::after
+{
+    content: "";
+    z-index: 1;
+    width: 10px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    margin-left: -160px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    transform: skewX(20deg);
+}
